@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"fmt"
 
-	dbConfig "github.com/api/apihg/config/database"
-	productController "github.com/api/apihg/controllers/product"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
+	dbConfig "github.com/lucas-sobierajski-oliveira/api/apihg/config/database"
+	productController "github.com/lucas-sobierajski-oliveira/api/apihg/controllers/product"
 )
 
 func main() {
